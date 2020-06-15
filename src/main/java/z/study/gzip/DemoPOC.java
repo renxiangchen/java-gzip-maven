@@ -23,6 +23,15 @@ public class DemoPOC {
     return m.toString();
   }
 
+
+  public String test() {
+    
+     String m = null;
+
+     return m.toString();
+    
+  }
+
   public static void ids16(final BufferedOutputStream outStream,
                                         final String quantity) throws IOException {
     String xmlString = "<item>\n<description>Widget</description>\n"
